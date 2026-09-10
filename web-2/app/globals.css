@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-arena: #fcf5ed;
+  --color-negro: #232021;
+}
+body {
+  @apply bg-arena text-negro;
+}
